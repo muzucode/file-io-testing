@@ -33,6 +33,8 @@ int main() {
 
     // Read the file!
     filecontents = readFile("files-to-download.txt");
+
+    downloadFilesFromList();
     
     printf("My file contents: \n");
     printf("%s\n", filecontents);
